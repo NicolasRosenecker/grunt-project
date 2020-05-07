@@ -69,8 +69,9 @@ module.exports = function(grunt) {
             }
         },
         jshint: {
-            all: ['Gruntfile.js', 'assets/js/MainCombined.js']
-        }
+            all: ['assets/js/MainCombined.js'],
+            esversion: 6,
+        },
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
