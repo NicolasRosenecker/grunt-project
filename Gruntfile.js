@@ -69,8 +69,7 @@ module.exports = function(grunt) {
             }
         },
         jshint: {
-            all: ['assets/js/MainCombined.js'],
-            esversion: 6,
+            all: 'assets/js/MainCombined.js',
         },
     });
 
